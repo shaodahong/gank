@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>未知</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body ng-app="app" ng-controller="appController">
+    <div class="bx">
+        <header>
+            <div class="logo">
+                <a href="#">
+                    <h1>未知</h1>
+                    <p>生活不止诗和远方，还有眼前的苟且</p>
+                </a>
+            </div>
+            <nav class="nav clearfix">
+                <ul>
+                    <li nav-current="current"><a href="#/web">前端</a></li>
+                    <li nav-current="current"><a href="#/ios">iOS</a></li>
+                    <li nav-current="current"><a href="#/android">Android</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="clearfix">
+            <div class="content" ui-view>
+
+
+            </div>
+            <div class="sidebar">
+                <input type="text" class="search" placeholder="大家都懂的">
+            </div>
+        </main>
+
+    </div>
+
+    <!--Angular-->
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./temp/web/web_controller.js"></script>
+    <script src="./temp/web/web_service.js"></script>
+    <script src="./temp/ios/ios_controller.js"></script>
+    <script src="./temp/ios/ios_service.js"></script>
+    <script src="./temp/android/android_controller.js"></script>
+    <script src="./temp/android/android_service.js"></script>
+    <script src="js/nav_current.js"></script>
+</body>
+</html>

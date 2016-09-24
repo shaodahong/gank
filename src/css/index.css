@@ -1,0 +1,120 @@
+body {
+    background-color: #fff;
+    min-width: 1000px;
+    /*font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.bx {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+/*logo*/
+.logo {
+    padding-top: 50px;
+}
+.logo a h1{
+    font-size: 40px;
+    font-family: "幼圆";
+}
+.logo a p{
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+/*nav*/
+.nav {
+    border-bottom: 1px solid #ddd;
+    padding-top: 20px;
+    width: 100%;
+}
+.nav ul {
+    float: right;
+    margin-bottom: -1px;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    display: block;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 20px;
+    color: #444;
+}
+.nav ul li.current {
+    border: 1px solid #ddd;
+    border-bottom-color: #fff;
+}
+/*main*/
+main {
+    margin-top: 40px;
+}
+/*content*/
+.content {
+    width: 64%;
+    float: left;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+}
+.content section {
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+.content section:last-child {
+    margin-bottom: 0;
+}
+.content section > p {
+    padding: 10px 0;
+}
+.content section > p a:hover {
+    text-decoration: underline;
+}
+.content section > span {
+    float: right;
+    font-size: 14px;
+    color: #999;
+}
+/*sidebar*/
+.sidebar {
+    width: 32.5%;
+    float: right;
+    height: 500px;
+}
+.sidebar .search {
+    outline: none;
+    height: 30px;
+    width: 80%;
+    border: none;
+    border: 1px solid #ddd;
+    display: block;
+    padding: 5px 15px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+/*paging*/
+.paging {
+
+}
+.paging button {
+    background-color: #fff;
+    outline: none;
+    border: none;
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    font-size: 14px;
+
+}
+.paging button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+.paging .prev {
+    float: left;
+}
+.paging .next {
+    float: right;
+}

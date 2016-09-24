@@ -1,0 +1,9 @@
+<section class="clearfix" ng-repeat="item in data.results">
+    <p><span>【{{item.who}}】</span><p><a href="{{item.url}}">{{item.desc}}</a></p></p>
+    <span>{{item.publishedAt | formatTime}}</span>
+</section>
+
+<div class="paging clearfix" ng-show="loading">
+    <button class="prev" ng-click="goBack()">上一页</button>
+    <button class="next" ng-click="goForward()">下一页</button>
+</div>
